@@ -1,14 +1,5 @@
 .top{
-    display: flex;
-    justify-content: space-between;
-    font-size: larger;
-    align-items: center;
-}
-    
-.top img{
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
+    text-align: center;
 }
 .blue{
     display: inline-block;
@@ -30,4 +21,20 @@
     display: flex;
     gap: 60px;
     text-align: center;
+}
+@media print{
+body{
+    background: #f0f0f0;
+    margin: 0;
+    padding: 40px 0;
+    font-family: serif;
+}
+.resume{
+    width: 8.5in;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 1in;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
 }
